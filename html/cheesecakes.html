@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bingooo Cheesecakes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/navigation.css">
+<link rel="stylesheet" href="../css/list.css">
+<script type="text/javascript" src="../js/compare_cheese.js"></script>
+<script>
+
+  function opa(x)
+  {
+    var element = document.getElementById(x);
+    element.style.opacity = "0.5";
+  }
+  function opa2(x)
+  {
+    var element = document.getElementById(x);
+    element.style.opacity = "1";
+  }
+  
+  </script>
+  <style type="text/css">
+  	table,th,td {
+	border : 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 20px;
+	}	
+	th,td {
+	padding: 5px;
+	}
+	table {
+		margin-left: 20px;
+		margin-bottom: 20px;
+
+	}
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h2>BINGOOO </h2>
+</div>
+
+<div id="navbar">
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="cakes.html">Cakes</a></li>
+  <li><a href="icecream.html">Ice Creams</a></li>
+  <li><a href="cheesecakes.html"  style="background-color: white; color: grey">Cheesecakes</a></li>
+  <li><a href="joinus.html">Join Us</a></li>
+
+</ul>
+</div>
+
+<br>
+<div id="list">
+<img onmouseover="opa('img1')" onmouseleave="opa2('img1')" id="img1" src="../images/cheese1.jpg" alt="cake" class="rep_img" >
+<a href="1714106.html" id="anchor1"><font size="3"><b>Poetry by Love and Cheesecake</b></font><br></a>
+<img src="../images/star.jpg" alt="star" class="star" >
+<img src="../images/star.jpg" alt="star" class="star" >
+<img src="../images/star.jpg" alt="star" class="star" ><br><hr>
+<font size="2">Bandra, West</font><br>
+<font size="2" >Rs.800 for 2</font>
+<!--<button style="float: right; margin-top: 10px; margin-right: 20px;" onclick="loadDock()">See Menu</button>-->
+
+<div id="list1">
+<p style="text-align: center">OFFERS</p></p><br>
+<a href="offer_cheese.html"><img src="../images/cheese_offer.jpg" height="200"></a>
+</div>
+
+</div>
+<br>
+<div id="list">
+<img onmouseover="opa('img2')" onmouseleave="opa2('img2')" id="img2" src="../images/cheese2.jpg" alt="cake" class="rep_img" >
+<a href="1714106.html"><font size="3" id="anchor2"><b>Pizza Express</b></font></a><br>
+<img src="../images/star.jpg" alt="star" class="star" >
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star" ><br><hr>
+<font size="2">BKC</font><br>
+<font size="2" >Rs.1200 for 2</font>
+
+
+</div>
+<br>
+<div id="list">
+<img onmouseover="opa('img3')" onmouseleave="opa2('img3')" id="img3" src="../images/cheese3.jpg" alt="cake" class="rep_img" >
+<a href="1714106.html"><font size="3" ><b>Chantilly</b></font></a><br>
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star"><br><hr>
+<font size="2">Bandra, West</font><br>
+<font size="2">Rs.350 for 2</font>
+
+
+</div>
+<br>
+<div id="list">
+<img onmouseover="opa('img4')" onmouseleave="opa2('img4')" id="img4" src="../images/cheese4.jpg" alt="cake" class="rep_img" >
+<a href="1714106.html"><font size="3"><b>Caek Cafe</b></font></a><br>
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star"><br><hr>
+<font size="2">Mira Road</font><br>
+<font size="2">Rs.400 for 2</font>
+</div><br>
+<button onclick="loadDoc()">Compare prices</button><br>
+<table id='demo'></table>
+</body>

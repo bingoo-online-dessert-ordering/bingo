@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: pink;
+  color: black;
+  padding: 1px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  height:100%;
+}
+
+#navbar li {
+  float: left;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a {
+  float: left;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #333;
+  color: white;
+}
+
+.content {
+  padding: 0px;
+  padding-top: -10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: -10px;
+}
+
+/*
+<body>
+  <div class="header">
+  <h2>BINGOOO </h2>
+</div>
+
+<div id="navbar">
+<ul>
+  <li><a class="active" href="1714106.html">Home</a></li>
+  <li><a href="1714106.html" style="background-color: white; color: grey">Cakes</a></li>
+  <li><a href="1714106.html">Ice Creams</a></li>
+  <li><a href="1714106.html">Cheesecakes</a></li>
+  <li><a href="1714106.html">Chocolates</a></li>
+  <li><a href="1714106.html">Waffles</a></li>
+</ul>
+</body>
+*/

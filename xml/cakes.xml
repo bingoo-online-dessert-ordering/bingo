@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+	<menu>
+		<list>
+			<name>Blackforest cake</name>
+			<cost1>330</cost1>
+			<cost2>340</cost2>
+			<cost3>270</cost3>
+			<cost4>260</cost4>
+		</list>
+		<list>
+			<name>Dutch Chocolate Cake</name>
+			<cost1>270</cost1>
+			<cost2>280</cost2>
+			<cost3>300</cost3>
+			<cost4>260</cost4>
+		</list>
+		<list>
+			<name>Pineapple Cake</name>
+			<cost1>300</cost1>
+			<cost2>290</cost2>
+			<cost3>270</cost3>
+			<cost4>300</cost4>
+		</list>
+		<list>
+			<name>Mixed Fruit Cake</name>
+			<cost1>300</cost1>
+			<cost2>320</cost2>
+			<cost3>350</cost3>
+			<cost4>370</cost4>
+		</list>
+	</menu>

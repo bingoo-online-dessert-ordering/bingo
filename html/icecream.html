@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bingooo Cakes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/navigation.css">
+<link rel="stylesheet" href="../css/list.css">
+<script type="text/javascript" src="../js/compare_ice.js"></script>
+<style>
+
+
+</style>
+<script>
+  function opa(x)
+  {
+    var element = document.getElementById(x);
+    element.style.opacity = "0.5";
+  }
+  function opa2(x)
+  {
+    var element = document.getElementById(x);
+    element.style.opacity = "1";
+  }
+  
+  </script>
+</head>
+<body>
+
+<div class="header">
+  <h2>BINGOOO </h2>
+</div>
+
+<div id="navbar">
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="cakes.html">Cakes</a></li>
+  <li><a href="icecream.html" style="background-color: white; color: grey">Ice Creams</a></li>
+  <li><a href="cheesecakes.html">Cheesecakes</a></li>
+  <li><a href="form_js.html">Join Us</a></li>
+</ul>
+
+
+</div>
+<br>
+<div id="list">
+<img onmouseover="opa('img1')" onmouseleave="opa2('img1')" id="img1" src="../images/icecream1.jpg" alt="cake" class="rep_img" >
+<a href="1714106.html" id="anchor1"><font size="3"><b>Baskin Robbins</b></font><br></a>
+<img src="../images/star.jpg" alt="star" class="star" >
+<img src="../images/star.jpg" alt="star" class="star" >
+<img src="../images/star.jpg" alt="star" class="star" ><br><hr>
+<font size="2">Thane, West</font><br>
+<font size="2" >Rs.200 for 2</font>
+
+<div id="list1">
+<p style="text-align: center">OFFERS</p></p><br>
+<a href="offer_ice.html"><img src="../images/icecream_offer.jpg" height="200">
+</div>
+
+</div>
+<br>
+<div id="list">
+<img onmouseover="opa('img2')" onmouseleave="opa2('img2')" id="img2" src="../images/icecream2.jpg" alt="cake" class="rep_img" >
+<a href="1714106.html"><font size="3" id="anchor2"><b>Naturals</b></font></a><br>
+<img src="../images/star.jpg" alt="star" class="star" >
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star" ><br><hr>
+<font size="2">Marine Lines</font><br>
+<font size="2" >Rs.150 for 2</font>
+
+
+</div>
+<br>
+<div id="list">
+<img onmouseover="opa('img3')" onmouseleave="opa2('img3')" id="img3" src="../images/icecream3.jpg" alt="cake" class="rep_img" >
+<a href="1714106.html"><font size="3" ><b>Apsara</b></font></a><br>
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star"><br><hr>
+<font size="2">Ghatkopar,East</font><br>
+<font size="2">Rs.1500 for 2</font>
+
+
+</div>
+<br>
+<div id="list">
+<img onmouseover="opa('img4')" onmouseleave="opa2('img4')" id="img4" src="../images/icecream4.jpg" alt="cake" class="rep_img" >
+<a href="1714106.html"><font size="3"><b>Havmor</b></font></a><br>
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star">
+<img src="../images/star.jpg" alt="star" class="star"><br><hr>
+<font size="2">Andheri</font><br>
+<font size="2">Rs.100 for 2</font>
+</div><br>
+<button onclick="loadDoc()">Compare prices</button><br>
+<table id='demo'></table>
+</body>

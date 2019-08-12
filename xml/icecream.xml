@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+	<menu>
+		<list>
+			<name>Belgium Chocolate 1Lt</name>
+			<cost1>150</cost1>
+			<cost2>200</cost2>
+			<cost3>220</cost3>
+			<cost4>180</cost4>
+		</list>
+		<list>
+			<name>Manog Icecream 1Lt</name>
+			<cost1>200</cost1>
+			<cost2>220</cost2>
+			<cost3>200</cost3>
+			<cost4>250</cost4>
+		</list>
+		<list>
+			<name>Vanilla Icecream 1Lt</name>
+			<cost1>180</cost1>
+			<cost2>150</cost2>
+			<cost3>200</cost3>
+			<cost4>150</cost4>
+		</list>
+		<list>
+			<name>Cookie and Cream 1Lt</name>
+			<cost1>220</cost1>
+			<cost2>250</cost2>
+			<cost3>240</cost3>
+			<cost4>260</cost4>
+		</list>
+	</menu>

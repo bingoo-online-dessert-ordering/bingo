@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+	<menu>
+		<list>
+			<name>Blueberry Cheesecake</name>
+			<cost1>300</cost1>
+			<cost2>330</cost2>
+			<cost3>270</cost3>
+			<cost4>260</cost4>
+		</list>
+		<list>
+			<name>New York Cheescake</name>
+			<cost1>200</cost1>
+			<cost2>220</cost2>
+			<cost3>280</cost3>
+			<cost4>250</cost4>
+		</list>
+		<list>
+			<name>Mango Cheescake</name>
+			<cost1>300</cost1>
+			<cost2>290</cost2>
+			<cost3>270</cost3>
+			<cost4>300</cost4>
+		</list>
+		<list>
+			<name>Chocolate Cheesecake</name>
+			<cost1>220</cost1>
+			<cost2>250</cost2>
+			<cost3>240</cost3>
+			<cost4>260</cost4>
+		</list>
+	</menu>
