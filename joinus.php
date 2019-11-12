@@ -1,3 +1,19 @@
+<?php
+    session_start();
+
+    if (!isset($_SESSION['email'])) {
+        header('Location: http://localhost:8000/bingo/index.php');  
+                    
+    }
+    else {
+        $now = time(); // Checking the time now when home page starts.
+
+        if ($now > $_SESSION['expire']) {
+            session_destroy();
+        header('Location: http://localhost:8000/bingo/index.php');  
+        }
+        else { //Starting this else one [else1]
+?>
 <html>
 <head>
 <title>Join Us!</title>
@@ -105,3 +121,6 @@ Cost for 2: <input type="text" name="cost">
 </div>
 	</body>
 </html>
+<?php 
+}
+} ?>
